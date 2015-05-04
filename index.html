@@ -9,16 +9,16 @@
 	<body >
 		<form>
 				Введите дату обратного отсчёта 
-				<input type='text' id='day' placeholder="ДД" > .
-				<input type='text' id='month' placeholder="ММ" > . 
-				<input type='text' id='year' placeholder="ГГ" > <br>
-				<input type='submit' class='button' value="Начать отсчёт" onClick='time()'>
+				<input id='day' class='input-value' placeholder="ДД" > .
+				<input id='month' class='input-value' placeholder="ММ" > . 
+				<input id='year' class='input-value' placeholder="ГГ" > <br>
+				<input class='button' value="Начать отсчёт" onClick='time()'>
 		</form>
-		<div id="days"> </div>
+		<div id="days" class='output-value'> </div>
 		<div> 
-			<span id="hours"> </span>
-			<span id="mins"> </span>
-			<span id="secs"> </span> 
+			<span id="hours" class='output-value'> </span>
+			<span id="mins" class='output-value'> </span>
+			<span id="secs" class='output-value'> </span> 
 		</div>
 	</body>
 </html>

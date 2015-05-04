@@ -5,28 +5,13 @@
     text-align: center; 
 }
 
-#days,#mins,#secs,#hours{
+.output-value{
 	font-size:50px;
+	position:relative;
+	top:15px;
 }
 
-#day,#month {
-	color: black;
-	background: #ffffff !important;
-	outline: none;
-	height: 34px;
-	width: 40px;
-	font-size: 16px;
-	font-family: Tahoma;
-	text-align: center;
-	border: 5px solid #cccccc;
-	border-radius: 9px;
-	-webkit-border-radius: 9px;
-	-moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
-	
-}
-
-#year {
+.input-value {
 	color: black;
 	background: #ffffff !important;
 	outline: none;
