@@ -1,8 +1,8 @@
-body {
-        color: white;
-        background: #2E69E3;
+﻿body {
+    color: white;
+    background: #2E69E3;
 	font-size:20px;
-        text-align: center; 
+    text-align: center; 
 }
 
 #days,#mins,#secs,#hours{
@@ -12,7 +12,7 @@ body {
 #day,#month {
 	border: 5px solid #cccccc;
 	border-radius: 9px;
-	webkit-border-radius: 9px;
+	-webkit-border-radius: 9px;
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	background: #ffffff !important;
@@ -28,7 +28,7 @@ body {
 #year {
 	border: 5px solid #cccccc;
 	border-radius: 9px;
-	webkit-border-radius: 9px;
+	-webkit-border-radius: 9px;
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
 	background: #ffffff !important;

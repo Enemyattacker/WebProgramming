@@ -1,4 +1,4 @@
-function time() {	
+п»їfunction time() {	
 
 	day=document.getElementById('day').value;
 	month=document.getElementById('month').value;
@@ -15,7 +15,7 @@ function time() {
 
 	if(dayproof==false||monthproof==false||yearproof==false)
 	{
-		alert("Неверно введена дата");
+		alert("РќРµРІРµСЂРЅРѕ РІРІРµРґРµРЅР° РґР°С‚Р°");
 		exit(1);
 	}
 	
@@ -24,12 +24,12 @@ function time() {
     	today = new Date();
 	
 	if((timeend-today)==0){
-		alert("Введённая дата наступила!!!");
+		alert("Р’РІРµРґС‘РЅРЅР°СЏ РґР°С‚Р° РЅР°СЃС‚СѓРїРёР»Р°!!!");
 		exit(1);
 	}
 
 	if((timeend-today)<0){
-		alert("Дата отсчёта не может быть раньше сегодняшней даты");
+		alert("Р”Р°С‚Р° РѕС‚СЃС‡С‘С‚Р° РЅРµ РјРѕР¶РµС‚ Р±С‹С‚СЊ СЂР°РЅСЊС€Рµ СЃРµРіРѕРґРЅСЏС€РЅРµР№ РґР°С‚С‹");
 		exit(1);
 	}
 	
@@ -41,7 +41,7 @@ function time() {
     	hour=today%24;
 	today=Math.floor(today/24);
 	
-    	document.getElementById('days').innerHTML= "До введённой даты осталось " + today+ " дней \n"; 
+    	document.getElementById('days').innerHTML= "Р”Рѕ РІРІРµРґС‘РЅРЅРѕР№ РґР°С‚С‹ РѕСЃС‚Р°Р»РѕСЃСЊ " + today+ " РґРЅРµР№ \n"; 
 	if(hour<10){
 	hour='0' + hour;
 	}
