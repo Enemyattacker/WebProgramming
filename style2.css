@@ -10,44 +10,46 @@
 }
 
 #day,#month {
-	border: 5px solid #cccccc;
-	border-radius: 9px;
-	-webkit-border-radius: 9px;
-	-moz-border-radius: 3px;
-	-khtml-border-radius: 3px;
+	color: black;
 	background: #ffffff !important;
 	outline: none;
 	height: 34px;
 	width: 40px;
-	color: black;
 	font-size: 16px;
 	font-family: Tahoma;
 	text-align: center;
-}
-
-#year {
 	border: 5px solid #cccccc;
 	border-radius: 9px;
 	-webkit-border-radius: 9px;
 	-moz-border-radius: 3px;
 	-khtml-border-radius: 3px;
+	
+}
+
+#year {
+	color: black;
 	background: #ffffff !important;
 	outline: none;
 	height: 34px;
 	width: 70px;
-	color: black;
 	font-size: 16px;
 	font-family: Tahoma;
 	text-align: center;
+	border: 5px solid #cccccc;
+	border-radius: 9px;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	
 }
 
 .button{
+	color: #FFFFFF;
 	background: #2E8CE3;
 	position:relative;
 	top:10px;
 	padding: 7px 30px;
 	font-weight: bold;
-	color: #FFFFFF;
 	text-align: center;
 	border: solid 1px #73C8F0;
 	cursor: pointer;
